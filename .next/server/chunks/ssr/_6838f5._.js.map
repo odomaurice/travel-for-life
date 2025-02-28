@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Administrator/Desktop/travel-for-life/app/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\r\nimport \"./globals.css\";\r\n\r\n\r\n\r\nexport const metadata: Metadata = {\r\n  title: \"Travel for Life\",\r\n  description: \"Plan your dream travel with Tripbetter\",\r\n  icons: {\r\n    icon: \"/favicon.ico\", \r\n  },\r\n};\r\n\r\nexport default function RootLayout({\r\n  children,\r\n}: Readonly<{\r\n  children: React.ReactNode;\r\n}>) {\r\n  return (\r\n    <html lang=\"en\">\r\n      <body\r\n        className=\" bg-home bg-contain z-[100000px] bg-top \"\r\n      >\r\n        {children}\r\n        <RightSidebar />\r\n      </body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;AAKO,MAAM,WAAqB;IAChC,OAAO;IACP,aAAa;IACb,OAAO;QACL,MAAM;IACR;AACF;AAEe,SAAS,WAAW,EACjC,QAAQ,EAGR;IACA,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;YACC,WAAU;;gBAET;8BACD,8OAAC;;;;;;;;;;;;;;;;AAIT"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 56, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Administrator/Desktop/travel-for-life/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,0HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
